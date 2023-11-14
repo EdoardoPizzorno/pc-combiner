@@ -1,0 +1,28 @@
+.toolbar{
+    height: 50px;
+    background: rgb(249,109,0);
+    background: linear-gradient(0deg, rgba(249,109,0,1) 0%, rgba(34,40,49,1) 25%);
+    color:#ddd;
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.toolbar h3{
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+.toolbar-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.toolbar-item:first-of-type {
+    margin-left: auto;
+}
