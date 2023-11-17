@@ -2,6 +2,8 @@
 body{
   margin: 0;
   padding: 0;
-  font-family: 'Arial', sans-serif;
-  background-color: #f96d00;
+  font-family: 'Montserrat', Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgba(240, 104, 0, 0.664);
 }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

@@ -1,6 +1,93 @@
-<div class="toolbar">
-  <h3>Welcome to our pc combiner</h3>
-  <div class="toolbar-item">Home</div>
-  <div class="toolbar-item">Contatcs</div>
-  <div class="toolbar-item">Services</div>
-</div>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+<nav class="navbar">
+  <div class="logo">
+    <!--<h1>PC Builder</h1>-->
+    <a href="#"><img src="../assets/pcs/pc_futuristic-removebg-preview.png" alt="PC Builder"></a>
+  </div>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Contacts</a></li>
+    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+  </ul>
+</nav>
+
+<section class="price-slider card-container">
+  <div class="card-content">
+    <div class="card-title">Seleziona budget</div>
+    <!--<small class="current-range">
+      Current Range:
+      <div>€<span id="thirdRange">7 200</span></div>
+    </small>-->
+    <div data-range="#thirdRange" data-value-1="#secondRange" data-value-0="#firstRange" class="slider">
+      <label class="label-min-value">1</label>
+      <label class="label-max-value">5000</label>
+    </div>
+    <div class="rangeslider">
+      <input class="min input-ranges" name="range_1" type="range" min="1" max="2400" value="700">
+      <input class="max input-ranges" name="range_1" type="range" min="2500" max="5000" value="2600">
+    </div><br><br>
+    <div class="values">
+      <div>€<span id="firstRange">700</span></div> -
+      <div>€<span id="secondRange">2600</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="tags">
+  <h2>Seleziona i <b>PROGRAMMI</b> che utilizzi maggiormente</h2>
+  <mat-chip-listbox aria-label="Category selection" multiple class="wrap-chips">
+    <mat-chip-option>Gaming</mat-chip-option>
+    <mat-chip-option>Video Editing</mat-chip-option>
+    <mat-chip-option>Graphic Design</mat-chip-option>
+    <mat-chip-option>Programming</mat-chip-option>
+    <mat-chip-option>VR</mat-chip-option>
+    <mat-chip-option>Gaming</mat-chip-option>
+    <mat-chip-option>Video Editing</mat-chip-option>
+    <mat-chip-option>Graphic Design</mat-chip-option>
+    <mat-chip-option>Programming</mat-chip-option>
+    <mat-chip-option>VR</mat-chip-option>
+    <mat-chip-option>Gaming</mat-chip-option>
+    <mat-chip-option>Video Editing</mat-chip-option>
+    <mat-chip-option>Graphic Design</mat-chip-option>
+    <mat-chip-option>Programming</mat-chip-option>
+    <mat-chip-option>VR</mat-chip-option>    <mat-chip-option>Gaming</mat-chip-option>
+    <mat-chip-option>Video Editing</mat-chip-option>
+    <mat-chip-option>Graphic Design</mat-chip-option>
+    <mat-chip-option>Programming</mat-chip-option>
+    <mat-chip-option>VR</mat-chip-option>
+    <mat-chip-option>Gaming</mat-chip-option>
+    <mat-chip-option>Video Editing</mat-chip-option>
+    <mat-chip-option>Graphic Design</mat-chip-option>
+    <mat-chip-option>Programming</mat-chip-option>
+    <mat-chip-option>VR</mat-chip-option>
+    <mat-chip-option>Gaming</mat-chip-option>
+    <mat-chip-option>Video Editing</mat-chip-option>
+    <mat-chip-option>Graphic Design</mat-chip-option>
+    <mat-chip-option>Programming</mat-chip-option>
+    <mat-chip-option>VR</mat-chip-option>
+    <mat-chip-option>Gaming</mat-chip-option>
+    <mat-chip-option>Video Editing</mat-chip-option>
+    <mat-chip-option>Graphic Design</mat-chip-option>
+    <mat-chip-option>Programming</mat-chip-option>
+    <mat-chip-option>VR</mat-chip-option>
+    <mat-chip-option>Gaming</mat-chip-option>
+    <mat-chip-option>Video Editing</mat-chip-option>
+    <mat-chip-option>Graphic Design</mat-chip-option>
+    <mat-chip-option>Programming</mat-chip-option>
+    <mat-chip-option>VR</mat-chip-option>
+  </mat-chip-listbox>
+</section>
+
+
+
+<section id="featured-components">
+  <h2>Componenti consigliate</h2>
+  <!-- Inserisci qui i componenti consigliati -->
+</section>
+
+<footer>
+  <a href="#">&copy; 2023 Configura il tuo PC</a>
+</footer>
